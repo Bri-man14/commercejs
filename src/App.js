@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {commerce} from './lib/commerce'
-import {Typography,AppBar, Button, Card, Cardactions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container} from '@material-ui/core'
+import {Typography,AppBar,  CssBaseline,  Toolbar, Container} from '@material-ui/core'
 import { Products, Navbar, Cart, Checkout } from './components';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -78,7 +78,7 @@ const App = () => {
         <AppBar position="relative">
             <Toolbar>               
                <Typography variant="h6">
-                   The Roger Ridley Experience
+                   RFD Security Cameras
                    </Typography> 
             </Toolbar>
         </AppBar>

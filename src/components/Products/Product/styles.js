@@ -6,7 +6,7 @@ export default makeStyles(() => ({
     height: '100%'
   },
   media: {
-      height: 0,
+      height: 120,
       paddingTop: '56.25'
   },
   cardContent: {
