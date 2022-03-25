@@ -89,10 +89,8 @@ const App = () => {
                         Gallery 
                     </Typography>
                     <Typography variant="h5" align="center" color="textSecondary" paragraph>
-"My eyes grow dim, and I could no more gaze;
-     A wave of longing through my body swept,
-And, hungry for the old, familiar ways
-     I turned aside and bowed my head and wept."
+    "At River Front Development, our goal is not to please our customers
+or to satisfy our customers. Our goal is to amaze them."
                     </Typography>
                 </Container>
             </div>
