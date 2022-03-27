@@ -3,7 +3,7 @@ import {AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography} from '@m
 import {ShoppingCart} from '@material-ui/icons'
 import {Link, useLocation} from 'react-router-dom'
 
-import logo from '../../assets/RRlogo.png'
+import logo from '../../assets/RFD.jpg'
 import useStyles from './styles'
 
 const Navbar = ({ totalItems}) => {
@@ -16,7 +16,7 @@ const Navbar = ({ totalItems}) => {
                 <Toolbar>
                     <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
                         <img src={logo} alt="Commerce.js" height="25px" className={classes.image}/>
-                        The Roger Ridley Experience
+                         RFD Security
                     </Typography>
                     <div className={classes.grow} />
                     {location.pathname === '/' && ( 
